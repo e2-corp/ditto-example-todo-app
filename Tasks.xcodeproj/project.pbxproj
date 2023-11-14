@@ -16,6 +16,14 @@
 		2E40F2AC2B02A3CB00E9AE6C /* TasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40F2AB2B02A3CB00E9AE6C /* TasksTests.swift */; };
 		2E40F2B62B02A3CB00E9AE6C /* TasksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40F2B52B02A3CB00E9AE6C /* TasksUITests.swift */; };
 		2E40F2B82B02A3CB00E9AE6C /* TasksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40F2B72B02A3CB00E9AE6C /* TasksUITestsLaunchTests.swift */; };
+		2E40F2C62B02A42500E9AE6C /* DittoObjC in Frameworks */ = {isa = PBXBuildFile; productRef = 2E40F2C52B02A42500E9AE6C /* DittoObjC */; };
+		2E40F2C82B02A42500E9AE6C /* DittoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2E40F2C72B02A42500E9AE6C /* DittoSwift */; };
+		2E40F2CA2B02AFD600E9AE6C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40F2C92B02AFD600E9AE6C /* Task.swift */; };
+		2E40F2CC2B02B1CF00E9AE6C /* TasksListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40F2CB2B02B1CF00E9AE6C /* TasksListScreen.swift */; };
+		2E40F2CE2B02B96C00E9AE6C /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40F2CD2B02B96C00E9AE6C /* TaskRow.swift */; };
+		2E40F2D02B02BE6B00E9AE6C /* TasksListScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40F2CF2B02BE6B00E9AE6C /* TasksListScreenViewModel.swift */; };
+		2E40F2D22B02CB6900E9AE6C /* EditScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40F2D12B02CB6900E9AE6C /* EditScreenViewModel.swift */; };
+		2E40F2D42B02D0BA00E9AE6C /* EditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E40F2D32B02D0BA00E9AE6C /* EditScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +56,12 @@
 		2E40F2B12B02A3CB00E9AE6C /* TasksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E40F2B52B02A3CB00E9AE6C /* TasksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksUITests.swift; sourceTree = "<group>"; };
 		2E40F2B72B02A3CB00E9AE6C /* TasksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2E40F2C92B02AFD600E9AE6C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		2E40F2CB2B02B1CF00E9AE6C /* TasksListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListScreen.swift; sourceTree = "<group>"; };
+		2E40F2CD2B02B96C00E9AE6C /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		2E40F2CF2B02BE6B00E9AE6C /* TasksListScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListScreenViewModel.swift; sourceTree = "<group>"; };
+		2E40F2D12B02CB6900E9AE6C /* EditScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScreenViewModel.swift; sourceTree = "<group>"; };
+		2E40F2D32B02D0BA00E9AE6C /* EditScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E40F2C62B02A42500E9AE6C /* DittoObjC in Frameworks */,
+				2E40F2C82B02A42500E9AE6C /* DittoSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +120,12 @@
 				2E40F29E2B02A3CA00E9AE6C /* Persistence.swift */,
 				2E40F2A02B02A3CA00E9AE6C /* Tasks.xcdatamodeld */,
 				2E40F29B2B02A3CA00E9AE6C /* Preview Content */,
+				2E40F2C92B02AFD600E9AE6C /* Task.swift */,
+				2E40F2CB2B02B1CF00E9AE6C /* TasksListScreen.swift */,
+				2E40F2CD2B02B96C00E9AE6C /* TaskRow.swift */,
+				2E40F2CF2B02BE6B00E9AE6C /* TasksListScreenViewModel.swift */,
+				2E40F2D12B02CB6900E9AE6C /* EditScreenViewModel.swift */,
+				2E40F2D32B02D0BA00E9AE6C /* EditScreen.swift */,
 			);
 			path = Tasks;
 			sourceTree = "<group>";
@@ -149,6 +171,10 @@
 			dependencies = (
 			);
 			name = Tasks;
+			packageProductDependencies = (
+				2E40F2C52B02A42500E9AE6C /* DittoObjC */,
+				2E40F2C72B02A42500E9AE6C /* DittoSwift */,
+			);
 			productName = Tasks;
 			productReference = 2E40F2922B02A3C900E9AE6C /* Tasks.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +247,9 @@
 				Base,
 			);
 			mainGroup = 2E40F2892B02A3C900E9AE6C;
+			packageReferences = (
+				2E40F2C42B02A42500E9AE6C /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */,
+			);
 			productRefGroup = 2E40F2932B02A3C900E9AE6C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -263,10 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E40F2CC2B02B1CF00E9AE6C /* TasksListScreen.swift in Sources */,
+				2E40F2D22B02CB6900E9AE6C /* EditScreenViewModel.swift in Sources */,
 				2E40F2A22B02A3CA00E9AE6C /* Tasks.xcdatamodeld in Sources */,
+				2E40F2D42B02D0BA00E9AE6C /* EditScreen.swift in Sources */,
 				2E40F29F2B02A3CA00E9AE6C /* Persistence.swift in Sources */,
+				2E40F2CA2B02AFD600E9AE6C /* Task.swift in Sources */,
 				2E40F2982B02A3C900E9AE6C /* ContentView.swift in Sources */,
+				2E40F2CE2B02B96C00E9AE6C /* TaskRow.swift in Sources */,
 				2E40F2962B02A3C900E9AE6C /* TasksApp.swift in Sources */,
+				2E40F2D02B02BE6B00E9AE6C /* TasksListScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -596,6 +631,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E40F2C42B02A42500E9AE6C /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getditto/DittoSwiftPackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E40F2C52B02A42500E9AE6C /* DittoObjC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E40F2C42B02A42500E9AE6C /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
+			productName = DittoObjC;
+		};
+		2E40F2C72B02A42500E9AE6C /* DittoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E40F2C42B02A42500E9AE6C /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
+			productName = DittoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		2E40F2A02B02A3CA00E9AE6C /* Tasks.xcdatamodeld */ = {
